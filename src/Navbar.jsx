@@ -49,17 +49,18 @@ export const Navbar = () => {
 				<h1>
 					<Link to='/'><img src={pHblanco} height={70} /></Link></h1>
 				<nav>
-					<div className='phbutton'>
-						{isReadyForInstall && (<a href="" type='button' className='btn' onClick={downloadApp}>
-							<h5>descargar</h5>
-						</a>)}
-					</div>
+
 					<b>
 						<Link style={{ marginRight: '20px', color: '#F2E9D8', borderColor: '404040' }} to='/'>Inicio</Link>
 
 						{/* <Link to='/Tabla'>Tablas</Link> */}
-						<Link style={{ marginRight: '20px', color: '#F2E9D8' }} to='/Reporte'>Reporte</Link>
-						<Link style={{ color: '#F2E9D8' }} to='/Tabla'>Tabla</Link>
+						{/*<Link style={{ marginRight: '20px', color: '#F2E9D8' }} to='/Reporte'>Reporte</Link>*/}
+						<Link style={{ color: '#F2E9D8' }} to='/Tabla'>Consejos</Link>
+						<div className='phbutton'>
+							{isReadyForInstall && (<a style={{ marginRight: '20px', color: '#F2E9D8' }}href="" type='button' className='btn' onClick={downloadApp}>
+								<center><h5>descargar</h5></center>
+							</a>)}
+						</div>
 					</b>
 				</nav>
 			</header>
