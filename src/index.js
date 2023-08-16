@@ -1,8 +1,4 @@
-import app from "./app.js"
+export * from './Tabla';
+export * from './Dashboard';
+export * from './Reporte';
 
-const main=()=>{
-    app.listen(app.get("port"));
-    console.log(`Server on port ${app.get("port")}`)
-};
-
-main();
