@@ -83,7 +83,7 @@ export const Dashboard = () => {
           {ph >= 11 && <h2>Estado: Alcalino</h2>}
           <h2 >Última fecha registrada: {fecha.slice(0, 10)} </h2>
           <h2 >Última hora registada: {hora}</h2>
-          <Link className='b' style={{ textDecoration: "None", color: 'Black' }} to='/Reporte'>Ver los ultimos 5 reportes</Link>
+          {/*<Link className='b' style={{ textDecoration: "None", color: 'Black' }} to='/Reporte'>Ver los ultimos 5 reportes</Link>*/}
 
         </div>
 
