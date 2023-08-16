@@ -87,7 +87,7 @@ export const Dashboard = () => {
 
         </div>
 
-        <div className='boxPh'>¿Quieres saber cuál es el nivel de ph que debe tener el agua para tus plantas?, haz click <b><Link to='/Tabla'>AQUÍ</Link></b> para ver la tabla de ph recomendados.</div>
+        <div className='boxPh'>¿Quieres saber cuál es el nivel de ph que debe tener el agua para tus plantas?, haz click <b><Link to='/Tabla'>AQUÍ</Link></b> Para ver la tabla de ph recomendados.</div>
 
         {/* tabla diaria (tabla de linea o Line) */}
         <div className='box2'>

@@ -4,7 +4,7 @@ import { VitePWA, VitePWAOptions } from "vite-plugin-pwa";
 
 const manifestForPlugin: Partial<VitePWAOptions> = {
   registerType: "prompt",
-  includeAssets: ["vite.svg"],
+  includeAssets: ["favicon.ico", "vite.svg"],
   manifest: {
     name: "Weather Ups",
     short_name: "Weathe Ups",
