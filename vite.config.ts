@@ -11,30 +11,33 @@ const manifestForPlugin: Partial<VitePWAOptions> = {
     description: "An app that can show weather forecast for your city.",
     icons: [
       {
-        src: "logo.png",
-        sizes: "323x374",
-        type: "image/png",
-        purpose: ""
-      },
-      {
         src: "logo1.png",
         sizes: "124x144",
-        type: "image/jpg"
+        type: "image/jpg",
+        purpose: "any"
       },
       {
         src: "logo192.png",
         sizes: "192x192",
-        type: "image/png"
+        type: "image/png",
+        purpose: "any"
       },
       {
         src: "favicon.ico",
-        sizes: "48x48",
-        type: "image"
+        sizes: "41x48",
+        type: "image",
+        purpose: "maskable"
+      },
+      {
+        src: "logo512.png",
+        sizes: "512x512",
+        type: "image/png",
+        purpose: "any"
       }
     ],
     theme_color: "#171717",
     background_color: "#e8ebf2",
-    display: "/",
+    display: "standalone",
     start_url: "/",
     orientation: "portrait",
   },
@@ -46,6 +49,6 @@ export default defineConfig({
   plugins: [react(), VitePWA(manifestForPlugin)],
 })
 
-
+/* me gusta la pizza*/
 
 
